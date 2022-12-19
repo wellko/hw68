@@ -8,4 +8,6 @@ export interface Poster {
 export interface postersState {
     posts: Poster[];
     loading: boolean;
+    disabled: boolean;
+    posting: boolean;
 }
